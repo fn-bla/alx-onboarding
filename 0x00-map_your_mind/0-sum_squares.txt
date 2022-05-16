@@ -1,0 +1,12 @@
+Pseudo code for calculating the sum
+for a given input
+
+Funtion SquareSum(n):
+	sum = 0
+	for i in range(1, n+1):
+		sum = sum + (i*i)
+	return sum
+
+endloop
+n = int(input(enter a number n;))
+print(SqaureSum(n))

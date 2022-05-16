@@ -1,0 +1,19 @@
+Pseudo code to Calculate a running sum
+
+arr = []
+sum = 0
+while True:
+    n = int(input("Numer: "))
+    if n >= 0:
+        arr.append(n)
+    else:
+        break
+endif
+endwhile
+
+for i in arr:
+    sum = sum + i
+
+endfor
+
+output sum
